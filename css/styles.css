@@ -43,8 +43,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .benefits.no-padding {
@@ -54,6 +53,11 @@ img {
 .page-header {
   background-color: var(--white-color);
   border-bottom: 1px solid var(--header-border-color);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .main-nav {
