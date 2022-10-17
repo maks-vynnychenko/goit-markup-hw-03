@@ -151,7 +151,7 @@ section.hero {
 }
 
 .hero .container {
-  width: 696px;
+  max-width: 696px;
 }
 
 .hero {
